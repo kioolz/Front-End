@@ -1,23 +1,21 @@
 body{
-    background-color: aqua;
+    background-color: white;
 }
 
+/* Style Header */
 
 header{
     width: 100%;
     height: 8.8rem;
     background-color: var(--gray-colors-800);
     display: flex;
-
 }
 
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 
 header nav{
     display: flex;
@@ -47,4 +45,135 @@ header nav ul li:last-child{
 header nav .btn_primay{
     padding: 0.9rem 3.4rem;
 
+}
+
+/* Style Section - Photo */
+
+.s-hero{
+    padding: 7.2rem 0px;
+}
+
+.s-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-hero .text{
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-hero .text h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.s-hero .text p{
+    text-align: center;
+    margin-bottom: 56px;
+    max-width: 488px;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--gray-colors-300)
+}
+
+.s-hero .text .btn_primay{
+    padding: 1.6rem 3.6rem;
+}
+
+.s-hero .image{
+    width: 100%;
+    max-width: 480px;
+    height : 496px;
+    background-color: var(--gray-colors-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Section featured cards */
+
+.s-card-feature {
+    background-color: var(--gray-colors-100);
+    padding-top: 10.4rem;
+    padding-bottom: 12rem;
+}
+
+.s-card-feature .main-area {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.265);
+    padding-bottom: 12.5rem;
+}
+
+.s-card-feature .title{
+    display: flex;
+    flex-direction: column;   
+}
+
+.s-card-feature .title.center{
+    align-items: center;
+}
+
+.s-card-feature .title p{
+    margin-top: 0.8rem;
+}
+
+.s-card-feature p{
+    color: var(--white-colors-text)
+}
+
+.s-card-feature .all-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+
+}
+
+.s-card-feature .all-cards .card{
+    background-color: rgba(28,29,31,0.5);
+    width: 100%;
+    max-width: 384px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 64px;
+    
+}
+
+.-scard-feature .all-cards .card .icon{
+    
+    max-width: 28.8rem;
+    margin-top: 4rem;
+    
+}
+
+.-scard-feature .all-cards .card .info{
+    max-width: 28.8rem;
+    margin-top: 4rem;    
+}
+
+.-scard-feature .all-cards .card .info h3{
+    text-align: center;
+}
+
+.-scard-feature .all-cards .card-white{
+    background-color: var(--white-colors-text);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.-scard-feature .all-cards .card-white h3{
+    color: var(--gray-colors-100);
+}
+
+.-scard-feature .all-cards .card-white p{
+    color: var(--gray-colors-100);
 }
