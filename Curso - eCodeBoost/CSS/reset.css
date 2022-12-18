@@ -1,5 +1,4 @@
 /* O seletor asterico pega todas as tags do site */
-
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +8,7 @@
     text-decoration: none;
     font-size: 1.6rem;
     font-family: 'Inter', sans-serif;
-
 }
-
 
 .container{
     width: 100%;
@@ -20,12 +17,10 @@
     padding: 0 15px;
 }
 
-
 img {
     max-width: 100%;
     display: block;
 }
-
 
 html {
     font-size : 62.5%
