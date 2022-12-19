@@ -9,8 +9,11 @@
 
     .s-card-featured .all-cards .card {
         max-width: 32%;
-
     }
+    footer main nav{
+        max-width: 63rem;
+    }
+
 }
 @media(max-width: 991px) {
     header nav {
@@ -45,6 +48,17 @@
         margin-top: 20px;
     }
 @media(max-width: 768px){
+    footer main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer main .area-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
 }
 @media(max-width: 600px) {
 }   
@@ -75,6 +89,33 @@
 
     h1{
         font-size: 4.2rem;
+    }
 
+    footer .copy{
+        flex-direction: column;
+    }
+
+    footer .copy p{
+        margin-bottom: 2rem;
+    }
+
+    footer main nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer main nav .item{
+        margin-bottom: 4rem;
+
+    }
+
+    footer main nav .item:last-child{
+        margin-bottom: 0;
+    }
+
+    footer main nav .item ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
