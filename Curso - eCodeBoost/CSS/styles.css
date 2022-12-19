@@ -25,7 +25,6 @@ header nav{
 
 header .menu-mobile{
     display: none;
-
 }
 
 header nav ul{
@@ -44,7 +43,6 @@ header nav ul li:last-child{
 
 header nav .btn_primay{
     padding: 0.9rem 3.4rem;
-
 }
 
 /* Style Section - Photo */
@@ -99,41 +97,35 @@ header nav .btn_primay{
 
 /* Section featured cards */
 
+/* MAIN AREA */
+
 .s-card-feature {
     background-color: var(--gray-colors-100);
     padding-top: 10.4rem;
     padding-bottom: 12rem;
 }
-
 .s-card-feature .main-area {
     border-bottom: 1px solid rgba(255, 255, 255, 0.265);
     padding-bottom: 12.5rem;
 }
-
 .s-card-feature .title{
     display: flex;
     flex-direction: column;   
 }
-
 .s-card-feature .title.center{
     align-items: center;
 }
-
 .s-card-feature .title p{
     margin-top: 0.8rem;
 }
-
 .s-card-feature p{
     color: var(--white-colors-text)
 }
-
 .s-card-feature .all-cards {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
-
 }
-
 .s-card-feature .all-cards .card{
     background-color: rgba(28,29,31,0.5);
     width: 100%;
@@ -144,36 +136,72 @@ header nav .btn_primay{
     align-items: center;
     text-align: center;
     padding-top: 64px;
-    
 }
-
 .-scard-feature .all-cards .card .icon{
-    
     max-width: 28.8rem;
     margin-top: 4rem;
-    
 }
-
 .-scard-feature .all-cards .card .info{
     max-width: 28.8rem;
     margin-top: 4rem;    
 }
-
 .-scard-feature .all-cards .card .info h3{
     text-align: center;
 }
-
 .-scard-feature .all-cards .card-white{
     background-color: var(--white-colors-text);
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
-
 .-scard-feature .all-cards .card-white h3{
     color: var(--gray-colors-100);
 }
-
 .-scard-feature .all-cards .card-white p{
     color: var(--gray-colors-100);
 }
+/* Second Area */
+.s-card-feature .second-area .top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11.2rem;
+}
+.s-card-feature .second-area .all-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.2rem;
+}
+.s-card-feature .second-area .all-imgs .image{
+    width: 17.6rem;
+    height: 11.2rem;
+    background-color: var(--gray-colors-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Section Newsletter */
+.s-newsletter{
+    background-color: var(--gray-colors-200);
+    padding: 15.2rem 0rem;
+}
+.s-newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s-newsletter h2{
+    margin-bottom: 2rem;
+}
+.s-newsletter p{
+    text-align: center;
+    max-width: 69.4rem;    
+    color: var(--white-colors-text);
+    margin-bottom: 4rem;
+}
+.s-newsletter .btn_primay{
+    padding: 1.6rem 4.1rem;
+}
+
+/* FOOTER */
+
