@@ -20,7 +20,6 @@ header .container{
 header nav{
     display: flex;
     align-items: center;
-
 }
 
 header .menu-mobile{
@@ -30,7 +29,6 @@ header .menu-mobile{
 header nav ul{
     display: flex;
     margin-right: 3.2rem;
-
 }
 
 header nav ul li{
@@ -93,7 +91,6 @@ header nav .btn_primay{
     align-items: center;
     justify-content: center;
 }
-
 
 /* Section featured cards */
 
@@ -205,3 +202,91 @@ header nav .btn_primay{
 
 /* FOOTER */
 
+footer{
+    background-color: var(--gray-colors-100);
+    padding-top: 8.8rem;
+    padding-bottom: 3.9rem;
+}
+
+footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+    padding-bottom: 7.2rem;
+}
+
+footer main .area-left{
+    max-width: 100%;
+}
+
+footer main .area-left p{
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--white-colors-text);
+    margin-top: 35px;
+}
+
+footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+footer main nav .item h6{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+footer main nav .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+
+footer main nav .item ul li a{
+    font-family: 'Sora';
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(--white-colors-text);
+
+}
+
+footer main nav .item ul li a {
+    display: flex;
+    align-items: center;
+
+}
+
+
+footer main nav .item:last-child ul li a{
+    margin-left: 0.8rem;
+}
+
+footer .copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.1rem;
+}
+
+footer .copy p{
+    color: var(--white-colors-text);
+    display: flex;
+}
+
+footer .copy .groupy{
+    display: flex;
+    align-items: center;
+
+}
+
+footer .copy .groupy span{
+    color: var(--white);
+    margin-right: 0.8rem;
+}
