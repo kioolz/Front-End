@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(221, 221, 147);
+}
+
+/* HEADER  */
+
+header{
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.container .logo{
+    max-width: 100%;
+    width: 25rem;
+    width: 400px;
+}
+
+header .headeroptions ul{
+    display: flex;
+    margin-right: 1.5rem;
+} 
+
+header .headeroptions ul li{
+    margin-left: 1.5rem;
+}
+
+header ul li:last-child{
+    margin-right: 0px;
+} 
+
+.container .headeroptions .menuitens{
+    border: 2px solid black;
+}
+
+.container .headeroptions .menuitens .menuoption{
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+
