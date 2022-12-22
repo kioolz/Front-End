@@ -38,7 +38,7 @@ a, button {
     color: #050110;
 }
 
-.btn-primary{
+.btn-one{
     font-family: 'Sora', sans-serif;
     display: inline-block;
     background-color: var(--brand-colors-pink);
