@@ -6,36 +6,42 @@ body{
 
 header{
     width: 100%;
+    max-width: 1218px;
 }
 
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
     padding-left: 1rem;
+    background-color: var(--white);
+    padding-right: 10px; 
 }
 
-.container .logo{
+header .container .logo{
     max-width: 100%;
-    width: 25rem;
-    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid blue;
+
 }
 
-header .headeroptions ul{
+header .container .headeroptions{
+    max-width: 100%;
     display: flex;
-    margin-right: 1.5rem;
-} 
-
-header .headeroptions ul li{
-    margin-left: 1.5rem;
+    align-content: center;
+    margin-right: 16px;
+    border: 1px solid salmon;
 }
 
-header ul li:last-child{
-    margin-right: 0px;
-} 
+header .container .headeroptions nav{
+    border: 5px solid yellow;
+}
 
-.container .headeroptions .menuitens{
-    border: 2px solid black;
+header .container .headeroptions nav .menuitens{
+    border: 5px solid pink;
+    align-items: center; 
 }
 
 .container .headeroptions .menuitens .menuoption{
@@ -43,4 +49,76 @@ header ul li:last-child{
     margin: 10px;
 }
 
+header .headeroptions ul{
+    display: flex;
+}
 
+header ul li:last-child{
+    margin-right: 0px;
+} 
+
+/* SECTION CENTRAL BANNER */
+
+section {
+    border: 1px solid black;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .container .banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid green;
+    padding: 10px 5px 10px 5px;
+}
+
+section .container .banner-left h2{
+    display: flex;
+    border: 3px solid orangered;
+    padding: 10px 5px 10px 5px;
+}
+
+section .container .banner-left p{
+    display: flex;
+    border: 6px solid blueviolet;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 24px;
+}
+section .container .banner-left .btnone{
+    border: 3px solid greenyellow;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    padding: 4px 8px 4px 8px;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid salmon;
+    padding-top: 25px;
+}
+
+footer .socialmedia{
+    display: flex;
+    border: 3px solid blue;
+
+}
+
+footer .socialmedia a{
+    border: 3px solid red;
+}
