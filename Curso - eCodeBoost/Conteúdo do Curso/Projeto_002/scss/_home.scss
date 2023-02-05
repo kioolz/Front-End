@@ -1,0 +1,91 @@
+.s-hero{
+    width: 100%;
+    height: 78.6rem;
+    background: url("../img/bg-hero.svg") no-repeat center center;
+    padding-top: 17.5rem;
+
+    .container{
+        @include flex(row, flex-start, space-between);
+
+    }
+    .text{
+        width: 100%;
+        max-width: 68.4rem;
+        h3{
+            opacity: 0.8;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+        }
+
+        h1{ 
+            color: #ffffff;
+            margin-bottom: 3.9rem;
+
+
+        }
+        ul {           
+            display: flex;
+            width: 100%;
+            margin-top: 6.4rem;
+            max-width: 62.1rem;
+            align-items: center;
+            justify-content: space-between;
+            li{
+                display: flex;
+                align-items: center;
+                .icon{
+                    width: 4.8rem;
+                    height: 4.8rem;
+                    background: linear-gradient(180deg, rgba(53, 203, 226, 0.4) 0%, rgba(53, 202, 226, 0) 100%);
+                    border-radius: 50%;
+                    @include flex(row, center, center);
+                    margin-right: 1.2rem;
+
+
+                }
+            }
+        }
+
+
+    }
+    .area-image{
+        width: 100%;
+        max-width: 706px;
+        margin-right: -17.4rem;
+        h2 {
+            margin-bottom: 6.7rem;
+            text-align: center;
+            color:#FFFFFF;
+            opacity: 0.4;
+            font-weight: 600;
+        }
+        .image{
+            width: 100%;
+            height: 54.1rem;
+            position: relative;
+            img{
+                position: absolute;
+                
+
+            }
+            .card-front{
+                top: 4.1rem;
+                left: 0;
+                z-index: 2;
+            }
+
+            .card-back{
+                bottom: 46px;
+                right: 86px;
+                z-index: 1;
+            }
+            .circle{
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+
+
+}
