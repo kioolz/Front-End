@@ -1,8 +1,9 @@
-@mixin flex($direction, $align, $justif) {
+@mixin flex($direction, $align, $justify) {
     display: flex;
     flex-direction: $direction;
     align-items: $align;
-    justify-content: $justif;
+    justify-content: $justify;
+    
 }
 
 @mixin responsive($screenWidth) {
