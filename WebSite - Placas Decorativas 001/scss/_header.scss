@@ -1,0 +1,80 @@
+/* Container Div Pai */
+.container{
+    display: flex;
+    border: 2px solid black;
+}
+
+/* HEADER */
+/* Div Filha Container */
+
+.container .menuHeader{
+    border: 2px solid red;
+    display: flex;
+    width: 100%;
+}
+
+.container .menuHeader .menuHeaderImage{
+    border: 2px solid burlywood;
+    margin: 0 auto;    
+}
+
+.container .menuHeader .menuHeaderOptions{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.container .menuHeader .menuHeaderOptions .menuHeaderOptionsItem{
+    border: 2px solid blue;
+    font-size: 80%;
+    margin: 0 auto;
+}   
+
+
+/* MAIN */
+
+.mainDisplay{
+    display: flex;
+    border: 2px solid yellow;
+    flex-wrap: wrap;    
+}
+
+.mainDisplay .mainCategoria{
+    border: 2px solid blue;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    font-size: larger;
+}
+
+.mainDisplay .wireFrame{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainDisplay .wireFrame .wireItem{
+    border: 2px solid purple;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+.mainDisplay .wireFrame .wireItem .pWireItem{
+    border: yellow 2px solid;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-flow: row wrap;
+}
