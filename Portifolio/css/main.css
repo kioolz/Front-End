@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to bottom left, #152021, #28373c, #40595e, #5d8389, #81b8ba);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 5px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container .topMenu{
+    border: blue 5px solid;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    width: 100%;
+}
+
+.container .topMenu nav{
+    border : green 5px solid;
+    height: 64px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    
+}
+
+.container .topMenu nav i{
+    border: goldenrod solid;
+    border-radius: 33% 66% 33% 66%;
+    border-top-width: 1px; /* define a largura da borda superior como 1 pixel */
+    border-right-width: 2px; /* define a largura da borda direita como 2 pixels */
+    border-bottom-width: 3px; /* define a largura da borda inferior como 3 pixels */
+    border-left-width: 4px; /* define a largura da borda esquerda como 2 pixels */
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-sizing: 0px 0px 10px 3px #fff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+i:hover{
+    box-shadow: 0px 0px 30px 10px #fff;
+    animation: glow 1s infinite;
+}
+
+@keyframes glow{
+    0%{
+        box-shadow: 0px 0px 30px 10px #fff;
+    }
+
+    50%{
+        box-shadow: 0px 0px 50px 20px #fff;
+    }
+
+    100%{
+        box-shadow: 0px 0px 30px 10px #fff;
+    }
+}
+
+
+.container .topMenu nav li {
+    -webkit-animation-delay: 2s;
+    border: black solid 3px;
+    border-radius: 66% 66% 66% 66%;
+    border-top-width: 1px; /* define a largura da borda superior como 1 pixel */
+    border-right-width: 2px; /* define a largura da borda direita como 2 pixels */
+    border-bottom-width: 3px; /* define a largura da borda inferior como 3 pixels */
+    border-left-width: 4px;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #8c9092, #a39c9a, #c2bbb4, #efeeef);
+    list-style-type: none;
+    
+}
