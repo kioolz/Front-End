@@ -1,9 +1,11 @@
+/* HTML PURE TAGS */
 body{
     background-image: linear-gradient(to bottom left, #152021, #28373c, #40595e, #5d8389, #81b8ba);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* HEADER */
 .container{
     display: flex;
     border: 10px solid black;
@@ -86,3 +88,4 @@ i:hover{
     list-style-type: none;
     
 }
+
